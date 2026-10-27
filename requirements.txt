@@ -1,0 +1,9 @@
+Flask>=3.0,<4
+gunicorn>=22,<24
+requests>=2.31,<3
+pymupdf>=1.24,<2
+chromadb>=0.5.5,<1
+pymongo>=4.8,<5
+# ChromaDB 0.6 calls the pre-v4 capture(user_id, event, properties) API.
+posthog>=2.4,<4
+pytest>=8,<9
